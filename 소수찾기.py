@@ -9,5 +9,5 @@ def solution(n):
     
     return len([i for i in range(2,n+1) if answer[i] == True])
 
-n = 4
+n = 8
 print(solution(n))
